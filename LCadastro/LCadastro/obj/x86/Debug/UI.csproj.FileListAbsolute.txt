@@ -1,0 +1,13 @@
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.LoginBox.resources
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.MainWindow.resources
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.Properties.Resources.resources
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.exe
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.pdb
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\UserControl1.baml
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\UserControl1.g.cs
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro_MarkupCompile.cache
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.g.resources
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.Cadastro_de_Clientes.resources

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LCadastroDBModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="LCadastroDBModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="LCadastroDBModel.Store.Cliente" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="nome" Type="nvarchar" MaxLength="20" />
+    <Property Name="sobrenome" Type="nvarchar" MaxLength="20" />
+    <Property Name="endereco" Type="nvarchar" MaxLength="50" />
+    <Property Name="cep" Type="nvarchar" MaxLength="10" />
+    <Property Name="cidade" Type="nvarchar" MaxLength="20" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="telefone" Type="nvarchar" MaxLength="10" />
+    <Property Name="celular" Type="nvarchar" MaxLength="10" />
+    <Property Name="contato" Type="nvarchar" MaxLength="100" />
+    <Property Name="obs" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+</Schema>

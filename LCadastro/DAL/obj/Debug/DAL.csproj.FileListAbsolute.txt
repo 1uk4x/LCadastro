@@ -1,0 +1,6 @@
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\DAL\bin\Debug\DAL.dll.config
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\DAL\bin\Debug\DAL.dll
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\DAL\bin\Debug\DAL.pdb
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\DAL\obj\Debug\DAL.dll
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\DAL\obj\Debug\DAL.pdb

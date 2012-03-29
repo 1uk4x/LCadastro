@@ -1,0 +1,12 @@
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\bin\Debug\LCadastro.exe
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\bin\Debug\LCadastro.pdb
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.Properties.Resources.resources
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.exe
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.pdb
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.LoginBox.resources
+c:\users\1uk4x\documents\visual studio 2010\Projects\LCadastro\LCadastro\obj\x86\Debug\LCadastro.MainWindow.resources
+C:\Users\1uk4x\Documents\Visual Studio 2010\Projects\LCadastro\LCadastro\bin\Debug\LCadastroDB.sdf
+C:\Users\1uk4x\Documents\Visual Studio 2010\Projects\LCadastro\LCadastro\bin\Debug\LCadastro.exe.config

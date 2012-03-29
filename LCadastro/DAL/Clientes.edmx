@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LCadastroDBModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="LCadastroDBModelStoreContainer">
+          <EntitySet Name="Cliente" EntityType="LCadastroDBModel.Store.Cliente" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="nome" Type="nvarchar" MaxLength="20" />
+          <Property Name="sobrenome" Type="nvarchar" MaxLength="20" />
+          <Property Name="endereco" Type="nvarchar" MaxLength="50" />
+          <Property Name="cep" Type="nvarchar" MaxLength="10" />
+          <Property Name="cidade" Type="nvarchar" MaxLength="20" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="telefone" Type="nvarchar" MaxLength="10" />
+          <Property Name="celular" Type="nvarchar" MaxLength="10" />
+          <Property Name="contato" Type="nvarchar" MaxLength="100" />
+          <Property Name="obs" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LCadastroDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="LCadastroDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clientes" EntityType="LCadastroDBModel.Cliente" />
+        </EntityContainer>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="nome" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="sobrenome" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="endereco" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="cep" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="cidade" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="telefone" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="celular" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="contato" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="obs" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LCadastroDBModelStoreContainer" CdmEntityContainer="LCadastroDBEntities">
+          <EntitySetMapping Name="Clientes"><EntityTypeMapping TypeName="LCadastroDBModel.Cliente"><MappingFragment StoreEntitySet="Cliente">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="nome" ColumnName="nome" />
+            <ScalarProperty Name="sobrenome" ColumnName="sobrenome" />
+            <ScalarProperty Name="endereco" ColumnName="endereco" />
+            <ScalarProperty Name="cep" ColumnName="cep" />
+            <ScalarProperty Name="cidade" ColumnName="cidade" />
+            <ScalarProperty Name="email" ColumnName="email" />
+            <ScalarProperty Name="telefone" ColumnName="telefone" />
+            <ScalarProperty Name="celular" ColumnName="celular" />
+            <ScalarProperty Name="contato" ColumnName="contato" />
+            <ScalarProperty Name="obs" ColumnName="obs" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Clientes">
+        <EntityTypeShape EntityType="LCadastroDBModel.Cliente" Width="1.5" PointX="0.75" PointY="0.75" Height="3.1340950520833335" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

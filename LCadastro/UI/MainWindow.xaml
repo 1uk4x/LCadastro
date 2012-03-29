@@ -1,0 +1,32 @@
+﻿<Window x:Class="UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Loaded="Window_Loaded" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" WindowState="Normal" WindowStyle="ThreeDBorderWindow" WindowStartupLocation="CenterScreen" MinWidth="1024" MinHeight="768" d:DesignHeight="546" d:DesignWidth="1004" SizeToContent="WidthAndHeight">
+    <Grid Height="737" Width="1027" Margin="0,0,0,0" Background="#FFF2F2F2" HorizontalAlignment="Left" VerticalAlignment="Top" MinWidth="1024" MinHeight="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="1024*" />
+        </Grid.ColumnDefinitions>
+        <Menu Height="Auto" Name="menu1" VerticalAlignment="Top" Grid.Column="1" Margin="0,0,1,0" HorizontalContentAlignment="Left">
+            <MenuItem Header="Cadastrar" >
+                <MenuItem Header="Clientes" Click="MenuItem_Cliente"/>
+                <MenuItem Header="Funcionarios" Click="MenuItem_Funcionario"/>
+                <Separator />
+                <MenuItem Header="Bar" Click="MenuItem_Bar"/>
+                <MenuItem Header="Roupas" Click="MenuItem_Roupa" />
+            </MenuItem>
+            <MenuItem Header="Listar">
+                <MenuItem Header="Clientes" Click="MenuItem_Cliente" />
+                <MenuItem Header="Funcionarios" />
+                <Separator />
+                <MenuItem Header="Bar" />
+                <MenuItem Header="Roupas" />
+            </MenuItem>
+        </Menu>
+        <Frame Height="485" Margin="0,20,320,0" Name="frame1" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="741,29,0,0" Name="textBoxSearch" VerticalAlignment="Top" Width="187" Text="Procurar..." GotFocus="searchBox_GotFocus" LostFocus="searchBox_LostFocus" />
+        <Button Content="-&gt;" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="930,29,0,0" Name="button1" VerticalAlignment="Top" Width="38" />
+        <Frame Grid.Column="1" Height="650" HorizontalAlignment="Left" Margin="741,58,0,0" Name="frame_Lista" VerticalAlignment="Top" Width="250" />
+    </Grid>
+  
+</Window>
