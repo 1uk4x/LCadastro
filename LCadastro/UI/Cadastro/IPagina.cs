@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace UI
+namespace UI.Cadastro
 {
-    interface IAuth
+    public interface IPagina
     {
-         
-         bool Passed();
+        String Title { get; set; }
     }
 }

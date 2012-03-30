@@ -1,12 +1,17 @@
-﻿<Window x:Class="UI.JanelaPrincipal"
+﻿<Window x:Class="UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="JanelaPrincipal" Height="768" Width="1024"
-        WindowState="Maximized"
-        >
-    <Grid Background="#FF727272">
-        <Button Content="Cadastro de Clientes" Height="32" HorizontalAlignment="Left" Margin="12,66,0,0" Name="buttonCadastrar" VerticalAlignment="Top" Width="150" Click="Button_Cadastrar_Click" />
-        <Button Content="Lista de Clientes" Height="33" HorizontalAlignment="Right"  Name="buttonListar" VerticalAlignment="Top" Width="150" Click="buttonListar_Click" Margin="0,27,840,0" />
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        
+        Title="LCadastros" Loaded="Window_Loaded" mc:Ignorable="d"
+        WindowState="Normal" WindowStyle="SingleBorderWindow"
+        WindowStartupLocation="CenterOwner" SizeToContent="WidthAndHeight" ResizeMode="CanResizeWithGrip">
+    <Grid  HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+           
+            
+        </Grid.ColumnDefinitions>
         <Menu Height="Auto" Name="menu1" VerticalAlignment="Top" HorizontalContentAlignment="Left" >
             <MenuItem Header="Cadastrar" >
                 <MenuItem Header="Clientes" Click="MenuItem_Cliente"/>
@@ -23,5 +28,8 @@
                 <MenuItem Header="Roupas" />
             </MenuItem>
         </Menu>
+        <Frame Height="478" Margin="0,27,0,0" Name="frame1" VerticalAlignment="Top" />
+       
     </Grid>
+  
 </Window>

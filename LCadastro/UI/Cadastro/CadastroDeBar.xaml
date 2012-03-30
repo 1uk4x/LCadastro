@@ -8,7 +8,7 @@
 	Title="CadastroDeBar">
 
     <Grid>
-        <Label Content="ID:" Height="28" HorizontalAlignment="Right"  Name="label13" VerticalAlignment="Top" Width="40" Margin="0,29,624,0" />
+        <Label Content="ID:" Height="28" HorizontalAlignment="Right"  Name="label13" VerticalAlignment="Top" Width="40" Margin="0,29,692,0" />
         <Label Content="Nome:" Height="28" HorizontalAlignment="Left" Margin="197,24,0,0" Name="label14" VerticalAlignment="Top" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="93,29,0,0" Name="textBox13" VerticalAlignment="Top" Width="76" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="286,29,0,0" Name="textBox14" VerticalAlignment="Top" Width="268" />

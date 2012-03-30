@@ -21,7 +21,7 @@ namespace UI
     /// <summary>
     /// Interaction logic for CadastroDeContatos.xaml
     /// </summary>
-    public partial class CadastroDeContatos : Page
+    public partial class CadastroDeContatos : Page, Cadastro.IPagina
     {
 
         Cliente registro;

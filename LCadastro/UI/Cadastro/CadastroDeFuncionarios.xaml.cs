@@ -17,7 +17,7 @@ namespace UI
     /// <summary>
     /// Interaction logic for CadastroDeFuncionarios1.xaml
     /// </summary>
-    public partial class CadastroDeFuncionarios1 : Page
+    public partial class CadastroDeFuncionarios1 : Page, Cadastro.IPagina
     {
         public CadastroDeFuncionarios1()
         {

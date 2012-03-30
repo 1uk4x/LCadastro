@@ -17,11 +17,14 @@ namespace UI.Listagem
     /// <summary>
     /// Interaction logic for Lista.xaml
     /// </summary>
-    public partial class Lista : Page
+    public partial class Lista : Page, Cadastro.IPagina
     {
-        public Lista()
+        
+        public Lista(List<DAL.Cliente> lista)
         {
             InitializeComponent();
+            dataGrid1.ItemsSource = lista;
         }
+        
     }
 }
