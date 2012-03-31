@@ -13,7 +13,7 @@ using System.Windows.Shapes;
 using UI.Listagem;
 using DAL.Logic.DAO;
 using DAL;
-
+using UI.Listagem;
 namespace UI
 {
     /// <summary>
@@ -21,6 +21,7 @@ namespace UI
     /// </summary>
     public partial class JanelaPrincipal : Window
     {
+
         public JanelaPrincipal()
         {
             InitializeComponent();
@@ -28,15 +29,12 @@ namespace UI
 
         private void Button_Cadastrar_Click(object sender, RoutedEventArgs e)
         {
-            new MainWindow().ShowDialog();
+            new MainWindow(new CadastroDeContatos());
         }
 
         private void buttonListar_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow m = new MainWindow();
-            m.ShowDialog(new Lista(new ClienteDAO().GetAll()));
-           
-            
+          new MainWindow(new Lista(new ClienteDAO().GetAll()));
         }
 
 
@@ -65,6 +63,12 @@ namespace UI
         public void MenuItem_Roupa(object sender, RoutedEventArgs e)
         {
            new MainWindow(new CadastroDeRoupas());
+        }
+
+        private void buttonProcurar_Click(object sender, RoutedEventArgs e)
+        {
+            
+           
         }
 
     }

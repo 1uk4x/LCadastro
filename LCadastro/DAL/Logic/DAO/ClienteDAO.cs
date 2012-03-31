@@ -66,6 +66,15 @@ namespace DAL.Logic.DAO
             return cliente;
         }
 
+        public Cliente GetRegistroPorNome(String nome)
+        {
+            cadastroEntities = new LCadastroDBEntities();
+            return ( from cliente in cadastroEntities.Clientes
+                       
+                   where cliente.nome.Equals(nome)
+                       select cliente ).ToList();
+        }
+
         public List<Cliente> GetAll()
         {
             cadastroEntities = new LCadastroDBEntities();

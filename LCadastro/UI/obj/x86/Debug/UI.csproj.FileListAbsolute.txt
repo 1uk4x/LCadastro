@@ -28,3 +28,5 @@ C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\UI\obj\x86\Debug\
 C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\UI\obj\x86\Debug\Autenticacoes\Login.g.cs
 C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\UI\obj\x86\Debug\Cadastro\CadastroMAIN.baml
 C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\UI\obj\x86\Debug\Cadastro\CadastroMAIN.g.cs
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\UI\obj\x86\Debug\Listagem\Lista2.baml
+C:\Users\1uk4x\documents\visual studio 2010\Projects\LCadastro\UI\obj\x86\Debug\Listagem\Lista2.g.cs
